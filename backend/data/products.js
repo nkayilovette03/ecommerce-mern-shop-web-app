@@ -37,7 +37,7 @@ const products = [
   },
   {
     name: 'CYBERPOWERPC Gamer, Gaming PC',
-    image: '/images/gamingPc.jpg',
+    image: '/images/gamingPc.png',
     description:
       'CYBERPOWERPC Gamer Xtreme VR Gaming PC, Intel Core i7 11700KF 3.6GHz, GeForce RTX 3080 10GB, 16GB DDR4, 500GB NVMe SSD, 2TB HDD, WiFi Ready &amp; Windows 10 Home (GXiVR8080A21, Black)Roll over image to zoom inCYBERPOWERPC Gamer Xtreme VR Gaming PC, Intel Core i7 11700KF 3.6GHz, GeForce RTX 3080 10GB, 16GB DDR4, 500GB NVMe SSD, 2TB HDD, WiFi Ready & Windows 10 Home (GXiVR8080A21, Black) ',
     brand: 'Intel',
