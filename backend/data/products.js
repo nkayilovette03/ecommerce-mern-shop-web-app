@@ -1,6 +1,5 @@
 const products = [
   {
-    _id: '1',
     name: 'Airpods Wireless Bluetooth Headphones',
     image: '/images/airpods.jpg',
     description:
@@ -13,7 +12,90 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '2',
+    name: 'Mac Book Pro Laptop Apple',
+    image: '/images/apple-laptop.jpg',
+    description:
+      'Laptop technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
+    brand: 'Apple',
+    category: 'Electronics',
+    price: 2000.99,
+    countInStock: 19,
+    rating: 5,
+    numReviews: 80,
+  },
+  {
+    name: 'Infinix Headset 3000ix',
+    image: '/images/yellow-headset.jpg',
+    description:
+      'Introducing the iPhone 11 Pro. A transformative triple-camera system that adds tons of capability without complexity. An unprecedented leap in battery life',
+    brand: 'Infinix',
+    category: 'Electronics',
+    price: 870.99,
+    countInStock: 6,
+    rating: 4.5,
+    numReviews: 23,
+  },
+  {
+    name: 'CYBERPOWERPC Gamer, Gaming PC',
+    image: '/images/gamingPc.jpg',
+    description:
+      'CYBERPOWERPC Gamer Xtreme VR Gaming PC, Intel Core i7 11700KF 3.6GHz, GeForce RTX 3080 10GB, 16GB DDR4, 500GB NVMe SSD, 2TB HDD, WiFi Ready &amp; Windows 10 Home (GXiVR8080A21, Black)Roll over image to zoom inCYBERPOWERPC Gamer Xtreme VR Gaming PC, Intel Core i7 11700KF 3.6GHz, GeForce RTX 3080 10GB, 16GB DDR4, 500GB NVMe SSD, 2TB HDD, WiFi Ready & Windows 10 Home (GXiVR8080A21, Black) ',
+    brand: 'Intel',
+    category: 'Electronics',
+    price: 3300.99,
+    countInStock: 18,
+    rating: 5,
+    numReviews: 73,
+  },
+  {
+    name: 'Intel I7 Core Laptop 9th Generation',
+    image: '/images/i7-laptop.jpg',
+    description:
+      'Introducing the iPhone 11 Pro. A transformative triple-camera system that adds tons of capability without complexity. An unprecedented leap in battery life',
+    brand: 'Intel',
+    category: 'Electronics',
+    price: 1500.5,
+    countInStock: 56,
+    rating: 4.5,
+    numReviews: 39,
+  },
+  {
+    name: 'Samsung S10 Galaxy 2021 Series',
+    image: '/images/samsung.jpg',
+    description:
+      'Introducing the iPhone 11 Pro. A transformative triple-camera system that adds tons of capability without complexity. An unprecedented leap in battery life',
+    brand: 'Samsung',
+    category: 'Electronics',
+    price: 480.0,
+    countInStock: 6,
+    rating: 4.5,
+    numReviews: 23,
+  },
+  {
+    name: 'Wireless Headset Black',
+    image: '/images/headset.jpg',
+    description:
+      'Introducing the iPhone 11 Pro. A transformative triple-camera system that adds tons of capability without complexity. An unprecedented leap in battery life',
+    brand: 'Samsung',
+    category: 'Electronics',
+    price: 150.0,
+    countInStock: 14,
+    rating: 3.5,
+    numReviews: 12,
+  },
+  {
+    name: 'Itel Headset Red',
+    image: '/images/headset-red.jpg',
+    description:
+      'Introducing the iPhone 11 Pro. A transformative triple-camera system that adds tons of capability without complexity. An unprecedented leap in battery life',
+    brand: 'Itel',
+    category: 'Electronics',
+    price: 55.0,
+    countInStock: 6,
+    rating: 4.5,
+    numReviews: 23,
+  },
+  {
     name: 'iPhone 11 Pro 256GB Memory',
     image: '/images/phone.jpg',
     description:
@@ -26,7 +108,6 @@ const products = [
     numReviews: 8,
   },
   {
-    _id: '3',
     name: 'Cannon EOS 80D DSLR Camera',
     image: '/images/camera.jpg',
     description:
@@ -39,7 +120,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '4',
     name: 'Sony Playstation 4 Pro White Version',
     image: '/images/playstation.jpg',
     description:
@@ -52,7 +132,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '5',
     name: 'Logitech G-Series Gaming Mouse',
     image: '/images/mouse.jpg',
     description:
@@ -65,7 +144,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '6',
     name: 'Amazon Echo Dot 3rd Generation',
     image: '/images/alexa.jpg',
     description:
